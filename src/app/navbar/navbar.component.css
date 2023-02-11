@@ -11,7 +11,7 @@
     color: #D00000;
 }
 
-.navItem:active {
+.active {
     padding-bottom: 2px;
     font-weight: bold;
     border-bottom: 3px solid #D00000 ;

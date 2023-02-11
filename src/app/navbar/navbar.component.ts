@@ -13,5 +13,4 @@ export class NavbarComponent {
   isActive(path: string): boolean {
     return this.route.snapshot.url.toString() === path;
   }
-  
 }

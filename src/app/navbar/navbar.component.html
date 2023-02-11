@@ -11,12 +11,12 @@
     </a>
   </li>
   <li class="navItem" nz-menu-item>
-    <a routerLink="about" class="navLink">
+    <a routerLink="about" [ngClass]="{'active': isActive('/about')}">
       About
     </a>
   </li>
   <li class="navItem" nz-menu-item>
-    <a routerLink="contact" class="navLink">
+    <a routerLink="contact" [ngClass]="{'active': isActive('/contact')}">
       Contact
     </a>
   </li>

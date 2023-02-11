@@ -26,8 +26,7 @@
             ],
             "styles": [
               "node_modules/ng-zorro-antd/ng-zorro-antd.min.css",
-              "src/styles.css",
-              "https://fonts.cdnfonts.com/css/poppins"
+              "src/styles.css"
             ],
             "scripts": []
           },
