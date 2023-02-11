@@ -25,7 +25,9 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "node_modules/ng-zorro-antd/ng-zorro-antd.min.css",
+              "src/styles.css",
+              "https://fonts.cdnfonts.com/css/poppins"
             ],
             "scripts": []
           },
@@ -87,6 +89,7 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/ng-zorro-antd/ng-zorro-antd.min.css",
               "src/styles.css"
             ],
             "scripts": []

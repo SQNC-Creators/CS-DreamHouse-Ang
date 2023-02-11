@@ -1,0 +1,24 @@
+<ul class="navBar" nz-menu nzMode="horizontal" >
+ <div class="navInner" >
+  <li class="navItem " nz-menu-item>
+    <a routerLink="/"  [ngClass]="{'active': isActive('/')}">
+      Home
+    </a>
+  </li>
+  <li class="navItem" nz-menu-item>
+    <a routerLink="/projects" [ngClass]="{'active': isActive('/projects')}" >
+      Projecs
+    </a>
+  </li>
+  <li class="navItem" nz-menu-item>
+    <a routerLink="about" class="navLink">
+      About
+    </a>
+  </li>
+  <li class="navItem" nz-menu-item>
+    <a routerLink="contact" class="navLink">
+      Contact
+    </a>
+  </li>
+ </div> 
+</ul>
